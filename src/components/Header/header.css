@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400&display=swap');
+
+:root {
+    --primary-color: #FFFFFF;
+    --off-white: #F3F4F6;
+    --light-blue: #007acc;
+    --txt-color : #0002cd;
+}
+
+.container {
+    padding: 0rem, 1rem;
+}
+
+.navigation {
+    background-color: var(--light-blue);
+    color: #000C2D;
+    padding : 2rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-pills {
+    text-align: center;
+}
+.navigation .nav-brand {
+    font-weight: bold;
+    color: var(--primary-color);
+    text-align: left;
+    padding-left: 0.5rem;
+}
+
+.navigation .link {
+    color: var(--primary-color);
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0rem;
+}
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+}

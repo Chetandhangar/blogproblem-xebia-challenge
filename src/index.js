@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BlogsProvider } from './contexts/blog-contexts';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BlogsProvider>
+        <App />
+    </BlogsProvider>
+   
   </React.StrictMode>,
   document.getElementById('root')
 );
