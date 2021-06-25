@@ -1,3 +1,4 @@
+
 .blog-card{
     display: flex;
     position: relative;
@@ -6,4 +7,31 @@
     border: solid black 1px;
     padding: 1rem;
     margin: 1rem;
+}
+.blog-details-link{
+     box-sizing: border-box;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+
+.blog-list{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+}
+.blog-slug{
+    flex-grow: 1;
+}
+
+
+
+/* BlogDetails*/
+
+.container {
+    padding: 0rem, 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
 }
